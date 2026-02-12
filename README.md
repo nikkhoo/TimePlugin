@@ -47,23 +47,21 @@ plugin:
 ### Project Structure
 
 ```
-LoginPlugin/
+TimePlugin/
 ├── pom.xml
 ├── plugin.yml
-├── src/main/java/com/example/loginplugin/
-│   ├── LoginPlugin.java          (Main plugin class)
-│   ├── database/
-│   │   ├── DatabaseManager.java  (Database connection management)
-│   │   └── PlayerManager.java    (Player account operations)
+├── src/main/java/com/example/timeplugin/
+│   ├── TimePlugin.java          (Main plugin class)
+│   │
 │   ├── commands/
-│   │   ├── LoginCommand.java
-│   │   ├── RegisterCommand.java
-│   │   └── LogoutCommand.java
+│   │   ├── HideCommand.java
+│   │   └── ShowCommand.java
+│   │
 │   ├── listeners/
 │   │   ├── PlayerJoinListener.java
 │   │   └── PlayerQuitListener.java
 │   └── util/
-│       └── PasswordUtil.java     (Password hashing and verification)
+│       └── TimeBarManager.java     
 └── src/main/resources/
     └── config.yml
 ```
