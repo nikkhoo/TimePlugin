@@ -1,0 +1,7 @@
+plugin:
+  time-bar:
+    enabled: true
+    title: "§eSession time: §a%time%s"
+    progress-cycle-seconds: 60
+    color: YELLOW
+    style: SOLID

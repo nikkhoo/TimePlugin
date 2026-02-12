@@ -1,0 +1,21 @@
+name: TimePlugin
+version: 1.0.0
+main: com.example.timeplugin.TimePlugin
+description: A Time Bar plugin for Paper servers
+authors:
+  - YourName
+website: https://github.com/yourusername/TimePlugin
+
+commands:
+  show:
+    description: Show the timer bar
+    usage: /time show
+  hide:
+    description: Hide the timer bar
+    usage: /time hide
+
+
+permissions:
+  timeplugin.timebar:
+    description: Allows players to use Time Bar commands
+    default: true

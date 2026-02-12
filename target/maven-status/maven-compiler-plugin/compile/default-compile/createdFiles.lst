@@ -1,0 +1,6 @@
+com\example\timeplugin\commands\ShowCommand.class
+com\example\timeplugin\listeners\PlayerQuitListener.class
+com\example\timeplugin\listeners\PlayerJoinListener.class
+com\example\timeplugin\TimePlugin.class
+com\example\timeplugin\util\TimeBarManager.class
+com\example\timeplugin\commands\HideCommand.class

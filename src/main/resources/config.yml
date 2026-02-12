@@ -1,0 +1,11 @@
+# TimePlugin Configuration
+
+# Plugin Settings
+plugin:
+  # Boss bar timer shown when player joins
+  time-bar:
+    enabled: true
+    title: "§eSession timer: §a%time%s"
+    progress-cycle-seconds: 60
+    color: YELLOW
+    style: SOLID
